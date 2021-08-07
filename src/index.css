@@ -5,9 +5,263 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+ display: flex; 
+ justify-content:  space-between;
+}
+
+.form-control{
+  background-color: #343a40;
+  width:10px;
+  height: 30px;
+}
+.form-control:focus{
+  width: 550px;
+}
+
+
+.fa-bell{
+  color: white;
+}
+.fa-plus{
+  color: white;
+}
+
+.fa-portrait{
+  color: white;
+  
+}
+li{
+  list-style: none;
+}
+
+.fa-github-square{
+  font-size: 32px;
+}
+
+.dropdown{
+  padding-right: 120px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .kol6 {
+    display: none;
+  }
+}
+.kol6{
+  background-color: #f6f8fa;
+}
+.kol7{
+  background-color: #f6f8fa;
+}
+.kol3{
+  background-color: white;
+}
+.flexx{
+
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnn{
+  background-color: rgb(4, 155, 4);
+  border-radius: 10px;
+  width: 65px;
+  height: 30px;
+}
+.ppp{
+  color: white;
+}
+.formm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7px;
+
+}
+.inptt{
+  width: 300px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.inptt:focus{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.aaa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 95%;               
+  background-color:gray;
+  height: 1px;
+}
+.fntsz{
+  font-size: 14px;
+}
+.gray{
+  color: gray;
+  font-size: 14px;
+}
+.leftt{
+  padding-left: 40px;
+}
+.exp{
+  
+  padding-top: 30px;
+}
+.aaaaa{
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+.aaaaa:hover{
+  text-decoration: none;
+}
+
+.fa-circle{
+  color: pink;
+
+}
+.gray1{
+  color: gray;
+  font-size: 12px;
+}
+.ppppp{
+padding-top: 30px;
+}
+
+.imgg{
+  border-radius: 150px;
+  width: 35px;
+}
+.spnn{
+    color: gray;
+
+    font-size: 13px;
+}
+.aaaa{
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.aaaa:hover{
+  text-decoration: none;
+}
+.div33{
+  width: 95%;
+  height: 15vh;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-top: 10px;
+  box-shadow: 1px 1px gray;
+
+}
+.imgg1{
+  border-radius: 180px;
+  width: 60px; 
+  padding: 10px;
+
+}
+.aaaaaa{
+  color: black;
+  font-weight: 500;
+}
+.aaaaaa:hover{
+  text-decoration: none;
+}
+
+.graya{
+  color: gray;
+  font-size: 12px;
+}
+.graya :hover{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.follow{
+  border-radius: 7px;
+  background-color: #fafbfc;
+  border: 1px solid;
+  width: 65px;
+}
+.follow:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+.hrrr{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:rgb(150, 148, 148);
+  height: 0.07px;
+}
+
+.fp{
+  font-size: 13px;
+  color: #343a40;
+}
+.fa-lightbulb{
+  font-size: 16px;
+}
+.fa-rss{
+  padding-right: 10px;
+}
+.faaa{
+  color: #343a40;
+  font-size: 14px;
+}
+.faaaa{
+  color: gray;
+  font-size: 13px;
+  float: left;
+}
+
+.fa-github2{
+  font-size: 20px;
+}
+.faaaa:hover{
+  color: gray;
+  text-decoration: none;
+}
+.faaaa:hover .fa-github2{
+  color: rgb(75, 75, 75);
+}
+.text-black{
+  color: grey;
+  font-size: 13px;
+}
+
+.blackk{
+  background-color: #24292e
+}
+.spaan{
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav-link:hover .spaan{
+  color: grey;
 }
